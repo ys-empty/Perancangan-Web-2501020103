@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <!-- untuk judul halaman tab -->
+        <title> Fourfeo Futsal Putri Antar Kebangsaan di Karimun, AFK: Wadah Tumbuhkan Prestasi Atlet Perempuan
+        </title>
+
+        <!-- Impor font dari google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+    
+     /* ngatur latar belakang halaman jadi putih dan margin luar 40px */
+    body {
+        background-color: white;
+        margin: 40px;
+    }
+    /* bungkus utama konten nanti lebarnya 90% dari layar dan rata tengah otomatis */
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    /* judul pake font Inter, ukuran 25px, cetak tebal (700) */
+    .judul { 
+        font-family: "Inter", sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        text-align: left;
+        margin-bottom: 8px; /* Jarak bawah ke bagian info */
+    }
+
+    /* info penulis dgn tnggal font Inter ukuran (12px) jarak antar baris 1.5 */
+    .info {
+        font-family: "Inter", sans-serif;
+        font-size: 12px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    /* gambar utamanya ke display block & margin auto supaya posisinya tepat di tengah (center) */
+    .gambar-utama {
+        display: block;
+        margin: auto;
+        width: 600px;
+    }
+
+    /* isi berita (Paragraf) font Arial, justify, dan spasi baris 1.5 biar enak dibaca */
+    p {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        text-align: justify;
+        line-height: 1.5;
+    }
+
+    /* kasih jarak atas untuk section dokumentasi */
+    .dokumentasi { 
+        margin-top: 25px;
+    }
+
+    /* sub judul section dokumentasi berita */
+    .judul-dokumentasi {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    /* Pake CSS Flexbox untuk nyusun foto dokumentasi secara sejajar */
+    .foto-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px; /* jarak antar gambar */
+    }
+
+    /* gambar dalam dokumentasi masing' lebar 50%, tinggi 250px */
+    .foto-container img {
+        width: 50%;
+        height: 250px;
+        object-fit: cover; /* biar gambar ga gepeng saat disesuaikan ukurannya */
+    }
+
+    /* footer garis batas di atas, teks rata tengah, dan jarak atas/dalam */
+    footer {
+        font-family: Arial, sans-serif;
+        font-size: 15px;
+        text-align: center;
+
+        border-top: 1px solid black;
+
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+
+    </style>
+
+</head>
+
+    <body>
+
+        <div class="container">
+
+          <!-- Section 1: judul berita -->
+        <h1 class="judul">
+            Fourfeo Futsal Putri Antar Kebangsaan di Karimun, AFK: Wadah Tumbuhkan Prestasi Atlet Perempuan
+        </h1>
+
+           <!-- Section 2: Identitas -->
+        <div class="info"> 
+            Penulis: <b>Yazira Sartika</b>
+            <br>
+            Tanggal:<b> Jumat, 2 Oktober 2026</b>
+
+        </div>
+
+
+        <!-- Section 3: Gambar Utama (Terganti di tengah) -->
+        <img class="gambar-utama" src="1.jpeg" alt="peserta turnamen.jpeg">
+
+        <!-- Section 4: Paragraf Isi Berita -->
+            <p>
+              Pertandingan Fourfeo Futsal Putri Antar Kebangsaan berlangsung meriah di Lapangan Futsal Gladiola, Karimun, pada Sabtu (30/8/2026). Turnamen ini diikuti oleh empat tim futsal putri, yaitu KJA FC, Mentuai FC, dan One FC asal Karimun, serta Bluesky FC asal Batam. Kompetisi ini menjadi ajang bagi para atlet perempuan untuk menunjukkan kemampuan terbaik mereka, meningkatkan pengalaman bertanding, serta membangun semangat sportivitas melalui olahraga futsal.
+            </p>
+
+            <p> 
+                Kegiatan ini menjadi salah satu bentuk dukungan terhadap perkembangan futsal putri, khususnya dalam menciptakan ruang bagi atlet perempuan untuk terus berkembang dan meraih prestasi. Melalui penyelenggaraan Fourfeo Futsal Putri Antar Kebangsaan, para peserta tidak hanya mendapatkan kesempatan untuk berkompetisi, tetapi juga memperkuat kerja sama tim, meningkatkan kemampuan bermain, serta mempererat hubungan antar pemain dari Karimun dan Batam. AFK Karimun berharap kegiatan seperti ini dapat menjadi wadah pembinaan dan motivasi bagi atlet futsal putri agar semakin berkembang di masa mendatang.
+            </p>
+  
+        <!-- Section 5: Bagian Dokumentasi -->
+        <div class="dokumentasi">
+
+            <div class="judul-dokumentasi">
+                Dokumentasi Berita
+        </div>
+
+            <div class="foto-container">
+                <img src="2.jpeg" alt="foto pertandingan futsal putri">
+
+                <img src="3.jpeg" alt="foto juara">
+
+            </div>
+        </div>
+
+        <!--Footer-->
+        <footer>
+            Yazira Sartika_2501020103_2026
+        </footer>
+
+    </div>
+
+        </body>
+</html>
