@@ -1,42 +1,229 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Yazira Sartika</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Light Cyberpunk</title>
+
+  <!-- Menghubungkan file CSS eksternal -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-    <div style="text-align: center;">
-        <h1>PORTOFOLIO</h1>
-        <h2>Yazira Sartika</h2>
-        <img src="Ayas (P3x4).jpeg" alt="Foto Yazira Sartika" width="150">
-    </div>
+  <!-- Container utama website -->
+  <div class="page-wrapper">
 
-    <h3>DESKRIPSI</h3>
-    <p>
-        Saya merupakan mahasiswa aktif Universitas Maritim Raja Ali Haji. Saya angkatan 25 Fakultas Teknik dan
-        Teknologi Kemaritiman, Program Studi Teknik Informatika.
-    </p>
+    <!-- =========================
+         HEADER / NAVBAR
+         ========================= -->
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-small">WEB PORTFOLIO</span>
+        <h2>ALEXA<span>_PORT</span></h2>
+      </div>
 
-    <h3>SKILL</h3>
-    <ul>
-        <li>Capcut</li>
-        <li>Canva</li>
-    </ul>
+      <!-- Navigasi ke setiap bagian halaman -->
+      <nav class="navbar">
+        <a href="#about">Tentang</a>
+        <a href="#skills">Skill</a>
+        <a href="#education">Pendidikan</a>
+        <a href="#social">Sosial Media</a>
+      </nav>
+    </header>
 
-    <h3>RIWAYAT PENDIDIKAN</h3>
-    <ul>
-        <li>SDN 003 BENGKONG LAUT (2013-2019)</li>
-        <li>SMPN 62 BATAM (2019-2022)</li>
-        <li>SMAN 8 BATAM (2022-2025)</li>
-    </ul>
+    <!-- =========================
+         HERO SECTION
+         Bagian utama seperti referensi:
+         teks besar + foto + intro
+         ========================= -->
+    <section class="hero">
+      
+      <!-- Tulisan besar di background -->
+      <div class="hero-bg-text">PORTFOLIO</div>
 
-    <h3>SOSIAL MEDIA</h3>
-    <ul>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/yazira-sartika-b0837b407/" target="_blank">Yazira Sartika</a></li>
-        <li>GitHub: <a href="https://github.com/ys-empty" target="_blank">ys-empty</a></li>
-    </ul>
+      <!-- Kolom kiri: teks perkenalan -->
+      <div class="hero-left">
+        <p class="eyebrow">LIGHT CYBERPUNK THEME</p>
+        <p class="hello">Hello, I’m</p>
+
+        <!-- Nama utama -->
+        <h1 class="hero-name">
+          ALEXA <br />
+          PRATAMA
+        </h1>
+
+        <!-- Status / peran -->
+        <h3 class="hero-role">
+          WEB DESIGNER & <br />
+          DIGITAL CREATOR
+        </h3>
+
+        <!-- Deskripsi singkat -->
+        <p class="hero-desc">
+          Saya adalah pelajar yang tertarik pada dunia desain website,
+          UI/UX, dan karya digital. Saya senang mempelajari hal baru,
+          mengembangkan kreativitas, serta membangun tampilan visual
+          yang modern, rapi, dan menarik.
+        </p>
+
+        <!-- Badge kecil -->
+        <div class="status-badge">
+          <span class="dot"></span>
+          Available for creative project
+        </div>
+      </div>
+
+      <!-- Kolom tengah: foto -->
+      <div class="hero-center">
+        <!-- Ganti foto.jpg dengan foto kamu sendiri -->
+        <img src="foto.jpg" alt="Foto Profil" class="profile-image" />
+      </div>
+
+      <!-- Kolom kanan: info ringkas -->
+      <div class="hero-right">
+        <div class="info-box">
+          <h4>01</h4>
+          <p>Nama</p>
+          <span>Alexa Pratama</span>
+        </div>
+
+        <div class="info-box">
+          <h4>02</h4>
+          <p>Fokus</p>
+          <span>Web Design & UI/UX</span>
+        </div>
+
+        <div class="info-box">
+          <h4>03</h4>
+          <p>Domisili</p>
+          <span>Indonesia</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         ABOUT SECTION
+         ========================= -->
+    <section class="section-card" id="about">
+      <div class="section-title-wrap">
+        <p class="section-number">01</p>
+        <h2 class="section-title">Deskripsi Diri</h2>
+      </div>
+
+      <div class="section-content">
+        <p>
+          Saya memiliki minat besar pada pengembangan tampilan website
+          yang estetik, interaktif, dan mudah digunakan. Saya menyukai
+          desain bertema futuristik dengan sentuhan modern, termasuk
+          gaya cyberpunk yang dibuat lebih terang dan elegan. Dalam
+          proses belajar, saya terus mengasah kemampuan desain, coding,
+          dan komunikasi visual agar dapat menghasilkan karya yang
+          menarik dan fungsional.
+        </p>
+      </div>
+    </section>
+
+    <!-- =========================
+         SKILLS SECTION
+         ========================= -->
+    <section class="section-card" id="skills">
+      <div class="section-title-wrap">
+        <p class="section-number">02</p>
+        <h2 class="section-title">Skill</h2>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Setiap skill dibuat dalam bentuk kartu -->
+        <div class="skill-item">HTML</div>
+        <div class="skill-item">CSS</div>
+        <div class="skill-item">UI/UX Design</div>
+        <div class="skill-item">Figma</div>
+        <div class="skill-item">Canva</div>
+        <div class="skill-item">Responsive Design</div>
+        <div class="skill-item">Wireframing</div>
+        <div class="skill-item">Creative Thinking</div>
+      </div>
+    </section>
+
+    <!-- =========================
+         EDUCATION SECTION
+         Riwayat pendidikan SD-SMK
+         ========================= -->
+    <section class="section-card" id="education">
+      <div class="section-title-wrap">
+        <p class="section-number">03</p>
+        <h2 class="section-title">Riwayat Pendidikan</h2>
+      </div>
+
+      <div class="education-list">
+        <div class="edu-item">
+          <div>
+            <h3>SD Negeri 01 Contoh</h3>
+            <p>Sekolah Dasar</p>
+          </div>
+          <span>2012 - 2018</span>
+        </div>
+
+        <div class="edu-item">
+          <div>
+            <h3>SMP Negeri 02 Contoh</h3>
+            <p>Sekolah Menengah Pertama</p>
+          </div>
+          <span>2018 - 2021</span>
+        </div>
+
+        <div class="edu-item">
+          <div>
+            <h3>SMK Negeri 03 Contoh</h3>
+            <p>Jurusan Rekayasa Perangkat Lunak</p>
+          </div>
+          <span>2021 - 2024</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         SOCIAL MEDIA SECTION
+         ========================= -->
+    <section class="bottom-grid" id="social">
+
+      <!-- Kiri: ajakan -->
+      <div class="contact-box large-box">
+        <p class="section-number">04</p>
+        <h2>Let’s Connect</h2>
+        <p>
+          Kamu bisa menghubungi saya atau melihat profil sosial media
+          saya melalui link berikut. Semua tombol di bawah ini bisa
+          langsung diarahkan ke akun masing-masing.
+        </p>
+
+        <div class="contact-highlight">
+          <span class="dot"></span>
+          Open for collaboration
+        </div>
+      </div>
+
+      <!-- Kanan: hyperlink sosial media -->
+      <div class="contact-box">
+        <h3>Social Media</h3>
+
+        <div class="social-links">
+          <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+          <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+          <a href="https://github.com/" target="_blank">GitHub</a>
+          <a href="https://www.tiktok.com/" target="_blank">TikTok</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         FOOTER
+         ========================= -->
+    <footer class="footer">
+      <p>© 2026 Alexa Pratama — Light Cyberpunk Portfolio</p>
+    </footer>
+
+  </div>
 
 </body>
 </html>
